@@ -13,7 +13,7 @@
     --txt-color-2: #4b4b4b;
     --accent-color-1: #225fe1;
     --accent-color-2: #;
-    --accent-color-3: #0b1a3b;
+    --accent-color-3: #072055;
     --accent-color-4: #;
 
 }
@@ -39,7 +39,7 @@ header {
     align-items: center;
     width: 100%;
     height: 60px;
-    padding: 10px;
+    padding: 20px;
     backdrop-filter: blur(10px);
 }
 
@@ -48,12 +48,8 @@ header a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 1px;
+    gap: 3px;
     text-decoration: none;
-}
-
-.hover-color:hover * {
-    color: var(--accent-color-1);
 }
 
 #logo-dot {
@@ -66,4 +62,16 @@ header a {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding-right: 123px;
+}
+
+.hover-effects:hover * {
+    color: var(--accent-color-1);
+}
+
+.header-selectors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
