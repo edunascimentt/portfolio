@@ -1,21 +1,21 @@
+:root {
+    --bg-color-1: #05080f;
+    --bg-color-2: #ffffff;
+    --bg-color-3: #05080fa2;
+    --txt-color-1: #ffffff;
+    --txt-color-2: #4b4b4b;
+    --accent-color-1: #225fe1;
+    --accent-color-2: #0049b8;
+    --accent-color-3: #072055;
+    --accent-color-4: #225ee12c;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: var(--txt-color-1);
     font-family: Montserrat;
-}
-
-:root {
-    --bg-color-1: #05080f;
-    --bg-color-2: #ffffff;
-    --txt-color-1: #ffffff;
-    --txt-color-2: #4b4b4b;
-    --accent-color-1: #225fe1;
-    --accent-color-2: #0049b8;
-    --accent-color-3: #072055;
-    --accent-color-4: #;
-
 }
 
 body {
@@ -43,7 +43,7 @@ header {
     backdrop-filter: blur(10px);
 }
 
-header a {
+header a, .sidebar a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -105,6 +105,57 @@ header a {
     }
 
     header {
-        padding: 7px;
+        padding: 10px;
+    }
+
+    .sidebar-open {
+        display: block;
+    }
+
+    .sidebar {
+        display: flex;
+    }
+    
+    .sidebar-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        padding: 15px;
+        width: 180px;
+        height: 100%;
+        gap: 20px;
+        background-color: var(--bg-color-3);
+        backdrop-filter: blur(10px);
+        box-shadow: -5px 0 5px var(--accent-color-4);
+        transition: 0.3s ease-in-out
+    }
+
+    .sidebar-links a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar-links {
+        right: 0;
+    }
+
+    #sidebar-toggle:checked ~ #sidebar-overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        transition: 1s ease-in-out;
+        backdrop-filter: blur(2px);
+        user-select: none;
     }
 }
