@@ -12,7 +12,7 @@
     --txt-color-1: #ffffff;
     --txt-color-2: #4b4b4b;
     --accent-color-1: #225fe1;
-    --accent-color-2: #;
+    --accent-color-2: #0049b8;
     --accent-color-3: #072055;
     --accent-color-4: #;
 
@@ -62,11 +62,34 @@ header a {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-right: 123px;
+    padding-right: 10%;
+}
+
+.header-links a {
+    position: relative;
+}
+
+.header-links a::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--accent-color-1);
+    transition: all .5s;
+}
+
+.header-links a:hover::before {
+    width: 100%;
+}
+
+.active h3 {
+    color: var(--accent-color-1);
 }
 
 .hover-effects:hover * {
-    color: var(--accent-color-1);
+    color: var(--accent-color-2);
 }
 
 .header-selectors {
