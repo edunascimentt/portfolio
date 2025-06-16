@@ -331,7 +331,6 @@ main {
         background-color: var(--bg-color-3);
         backdrop-filter: blur(10px);
         box-shadow: -5px 0 5px var(--accent-color-5);
-        font-size: 25px;
         transition: 0.3s ease-in-out
     }
 
