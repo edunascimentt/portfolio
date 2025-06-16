@@ -265,10 +265,6 @@ main {
     z-index: 10;
     stroke: var(--accent-color-1);
     cursor: pointer;
-
-}
-
-#scroll-indicator:hover {
     animation: scroll-bounce 1.5s infinite;
 }
 
