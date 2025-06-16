@@ -182,7 +182,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 250px 0px 0px 0px;
+    margin: 200px 0px 0px 0px;
     font-size: 30px;
     text-align: center;
 }
@@ -271,7 +271,7 @@ main {
     animation: scroll-bounce 1.5s infinite;
 }
 
-/* Media queries */
+/* Media queries / Breakpoints*/
 
 @media (max-width: 1600px) {
     .glow {
@@ -355,6 +355,10 @@ main {
         transition: 1s ease-in-out;
         backdrop-filter: blur(2px);
         user-select: none;
+    }
+
+    .welcome-card {
+        margin: 160px 0px 0px 0px;
     }
 }
 
