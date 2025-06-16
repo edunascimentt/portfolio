@@ -325,12 +325,13 @@ main {
         right: -100%;
         z-index: 10;
         padding: 15px;
-        width: 180px;
+        width: 240px;
         height: 100%;
         gap: 20px;
         background-color: var(--bg-color-3);
         backdrop-filter: blur(10px);
         box-shadow: -5px 0 5px var(--accent-color-5);
+        font-size: 25px;
         transition: 0.3s ease-in-out
     }
 
@@ -340,6 +341,7 @@ main {
         justify-content: center;
         align-items: center;
         height: 45px;
+        gap: 7px;
     }
 
     #sidebar-toggle:checked ~ .sidebar-links {
