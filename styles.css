@@ -358,7 +358,13 @@ main {
     }
 
     .welcome-card {
-        margin: 100px 0px 0px 0px;
+        margin: 130px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 975px) {
+    .welcome-card {
+        font-size: 20px;
     }
 }
 
