@@ -343,6 +343,10 @@ main {
         gap: 7px;
     }
 
+    .active h1 {
+    color: var(--accent-color-1);
+    }
+
     #sidebar-toggle:checked ~ .sidebar-links {
         right: 0;
     }
