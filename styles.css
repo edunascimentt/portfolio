@@ -195,7 +195,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 260px 0px 0px 0px;
+    margin: 260px 20px 0px 20px;
     font-size: 30px;
     text-align: center;
     animation: startup 0.5s ease-out.2s both;
@@ -270,7 +270,7 @@ main {
     fill: var(--accent-color-2);
 }
 
-#home-skills-wrapper {
+.home-skills-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,12 +284,12 @@ main {
     padding: 120px 175px;
 }
 
-#home-skills-wrapper h1 {
+.home-skills-wrapper h1 {
     font-size: 55px;
     margin-left: 20px;
 }
 
-#home-skills-wrapper h2 {
+.home-skills-wrapper h2 {
     font-size: 30px;
 }
 
@@ -406,7 +406,6 @@ main {
 }
 
 @media (max-width: 1275px) {
-
     .glow {
         height: 1400px;
         width: 1400px;
@@ -415,12 +414,21 @@ main {
     header, main{
         padding: 0px 20px;
     }
+
+    .home-skills-wrapper {
+        padding: 120px 0px 0px 0px;
+    }
 }
 
 @media (max-width: 975px) {
     .glow {
         height: 1100px;
         width: 1100px;
+    }
+
+    .welcome-card {
+        font-size: 20px;
+        margin: 190px 20px 0px 20px;
     }
 
     header, main {
@@ -487,13 +495,27 @@ main {
         user-select: none;
     }
 
-    .welcome-card {
-        margin: 190px 0px 0px 0px;
+    .home-skills-wrapper {
+        align-items: center;
     }
-}
 
-@media (max-width: 975px) {
-    .welcome-card {
+
+    .home-skills-wrapper h1 {
+        font-size: 40px;
+    }
+
+    .home-skills-wrapper h2 {
         font-size: 20px;
     }
+
+    .home-skill-block {
+        padding: 5px;
+        height: 55px;
+        width: 55px;
+    }
+
+    /* .home-skills-wrapper svg {
+        width: 40px;
+        height: 40px;
+    } */
 }
