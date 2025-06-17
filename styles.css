@@ -78,7 +78,7 @@ b {
     right: -35%;
 }
 
-#main-background {
+#main-sector-1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -135,6 +135,10 @@ header svg, .sidebar svg {
     position: relative;
 }
 
+.hover-effects svg {
+    stroke: var(--accent-color-1);
+}
+
 .header-links a::before {
     content: "";
     position: absolute;
@@ -156,6 +160,8 @@ header svg, .sidebar svg {
 
 .hover-effects:hover * {
     color: var(--accent-color-2);
+    transition: ease-in-out 0.3s;
+    transform: translateY(-2px);
 }
 
 .header-selectors {
@@ -229,7 +235,7 @@ main {
 .welcome-card button:hover {
     transition: ease-in-out 0.3s;
     background-color: var(--accent-color-6);
-    transform: translateY(-1px) scale(1.02);
+    transform: translateY(-2px) scale(1.02);
 }
 
 #socials-text {
@@ -251,7 +257,7 @@ main {
 
 .welcome-card-socials svg:hover {
     transition: ease-in-out 0.2s;
-    transform: translateY(-1px) scale(1.02);
+    transform: translateY(-2px) scale(1.02);
     fill: var(--accent-color-2);
 }
 
