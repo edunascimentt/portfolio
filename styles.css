@@ -502,6 +502,11 @@ main {
 
     .home-skills-wrapper {
         align-items: center;
+        height: 115vh;
+    }
+
+    #scroll-sector-1 {
+        height: 115vh;
     }
 
 
