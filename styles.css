@@ -90,6 +90,7 @@ b {
     background-color: var(--bg-color-1);
     box-shadow: var(--bg-color-1) 0px 0px 120px 120px;
     user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Header */
