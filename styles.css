@@ -502,15 +502,15 @@ main {
 
     .home-skills-wrapper {
         align-items: center;
-        height: 115vh;
+        height: 115svh;
     }
 
     .home-skills-row {
-        box-shadow: 0px 0px 20px 7px var(--accent-color-5);
+        box-shadow: 0px 0px 20px 10px var(--accent-color-5);
     }
 
     #scroll-sector-1 {
-        height: 115vh;
+        height: 115svh;
     }
 
 
