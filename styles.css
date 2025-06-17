@@ -374,7 +374,7 @@ main {
 #scroll-indicator {
     position: absolute;
     left: 50%;
-    bottom: 10%;
+    bottom: 5%;
     transform: translateX(-50%);
     z-index: 10;
     stroke: var(--accent-color-1);
