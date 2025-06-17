@@ -503,6 +503,7 @@ main {
     .home-skills-wrapper {
         align-items: center;
         height: 115svh;
+        margin-top: 110svh;
     }
 
     .home-skills-row {
@@ -510,6 +511,7 @@ main {
     }
 
     #scroll-sector-1 {
+        margin-top: 110svh;
         height: 115svh;
     }
 
