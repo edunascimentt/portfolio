@@ -270,11 +270,11 @@ main {
     fill: var(--accent-color-2);
 }
 
-.home-skills-wrapper {
+.home-skills-bg {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -282,6 +282,13 @@ main {
     height: 100vh;
     margin-top: 100vh;
     padding: 120px 175px;
+}
+
+.home-skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .home-skills-wrapper h1 {
@@ -367,6 +374,21 @@ main {
 
 .line-database {
     margin-left: 20px ;
+}
+
+.spline-particles-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    padding: 7% 27% 0px 0px;
+}
+
+.spline-particles {
+    z-index: 5;
+    position: absolute;
 }
 
 /* Scroll indicator */
