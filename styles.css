@@ -719,10 +719,10 @@ main {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    border: var(--accent-color-1) 1px solid;
     border-radius: 7px;
     background-color: var(--accent-color-5);
     font-weight: bold;
+    cursor: default;
 }
 
 .more-projects-button {
