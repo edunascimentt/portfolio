@@ -80,7 +80,7 @@ b {
     right: -35%;
 }
 
-#scroll-sector-1 {
+#content-sector-1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -89,23 +89,38 @@ b {
     margin-top: 100vh;
     z-index: -1;
     overflow: hidden;
-    background-color: var(--bg-color-1);
-    box-shadow: var(--bg-color-1) 0px 0px 120px 120px;
     user-select: none;
     -webkit-user-select: none;
+    background-color: var(--bg-color-1);
+    /* box-shadow: var(--bg-color-1) 0px 0px 120px 120px; */
 }
 
-#scroll-sector-2 {
+#content-sector-2 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     margin-top: 210vh;
     z-index: -1;
     overflow: hidden;
     user-select: none;
     -webkit-user-select: none;
+}
+
+#content-sector-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin-top: 330vh;
+    z-index: -1;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: var(--bg-color-1);
+    /* box-shadow: var(--bg-color-1) 0px 0px 120px 120px; */
 }
 
 /* Header */
@@ -205,6 +220,8 @@ main {
     z-index: 3;
 }
 
+/* Main/Content sector 0 */
+
 .welcome-card {
     display: flex;
     flex-direction: column;
@@ -285,6 +302,8 @@ main {
     transform: translateY(-2px) scale(1.02);
     fill: var(--accent-color-2);
 }
+
+/* Main/Content sector 1 */
 
 .home-skills-bg {
     display: flex;
@@ -392,6 +411,9 @@ main {
     margin-left: 20px ;
 }
 
+/* Main/Content sector 2 */
+
+
 .home-experience-bg {
     display: flex;
     flex-direction: row;
@@ -491,12 +513,65 @@ main {
 
 .see-more-button:hover {
     transition: ease-in-out 0.1s;
-    /* background-color: var(--accent-color-5); */
+    background-color: var(--accent-color-5);
+    transform: translateY(-2px) scale(1.02);
+}
+
+.more-experiences-button {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 20px;
+    padding: 13px 40px;
+    border-radius: 10px;
+    border: var(--accent-color-1) 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 0px 0px 30px 10px var(--accent-color-5);
+}
+
+.more-experiences-button:hover {
+    transition: ease-in-out 0.1s;
+    background-color: var(--accent-color-6);
+    box-shadow: 0px 0px 20px 10px var(--accent-color-5);
     transform: translateY(-2px) scale(1.02);
 }
 
 .home-experience-title h2, .home-experience-subtitle h4 {
     line-height: 1.01;
+}
+
+/* Main/Content sector 3 */
+
+.home-projects-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin-top: 330vh;
+    padding: 120px 175px;
+}
+
+.home-projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home-projects-wrapper h1 {
+    font-size: 55px;
+    margin-left: 20px;
+}
+
+.home-experience-wrapper h2 {
+    font-size: 30px;
 }
 
 /* Scroll indicator */
@@ -641,12 +716,6 @@ main {
     .home-skills-row {
         box-shadow: 0px 0px 20px 10px var(--accent-color-5);
     }
-
-    #scroll-sector-1 {
-        margin-top: 110svh;
-        height: 115svh;
-    }
-
 
     .home-skills-wrapper h1 {
         font-size: 40px;
