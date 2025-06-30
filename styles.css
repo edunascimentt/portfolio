@@ -572,6 +572,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin: 0px 20px 0px 20px;
     gap: 35px;
 }
 
@@ -880,6 +881,13 @@ footer {
     }
 }
 
+@media (max-width: 1100px) {
+    .home-projects-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width: 975px) {
     .glow {
         height: 1100px;
@@ -984,4 +992,10 @@ footer {
     .skills-container {
         flex-direction: column;
     } */
+}
+
+@media (max-width: 680px) {
+    .portfolio-block {
+        display: none;
+    }
 }
