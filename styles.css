@@ -890,9 +890,7 @@ footer {
     .footer-left-block {
         align-items: center;
     }
-}
 
-@media (max-width: 1100px) {
     .home-projects-container {
         justify-content: center;
         flex-wrap: wrap;
@@ -900,7 +898,7 @@ footer {
 
     .home-experience-wrapper {
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .home-experience-wrapper h1 {
@@ -1017,6 +1015,16 @@ footer {
 @media (max-width: 680px) {
     .portfolio-block {
         display: none;
+    }
+}
+
+@media (max-width: 590px) {
+    .home-experience-wrapper {
+        align-items: center;
+    }
+
+    .home-experience-row {
+        max-width: 300px;
     }
 }
 
