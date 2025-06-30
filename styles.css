@@ -448,6 +448,7 @@ main {
 .home-experience-wrapper h1 {
     font-size: 55px;
     text-align: right;
+    display: flex;
 }
 
 .home-experience-row {
@@ -477,6 +478,15 @@ main {
     align-items: center;
     width: 100%;
     padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+#home-freelance-title-padding {
+    padding-right: 94px;
+}
+
+#home-classic-title-padding {
+    padding-right: 20px;
 }
 
 .home-experience-date {
@@ -503,6 +513,7 @@ main {
     align-items: flex-end;
     width: 100%;
     padding-left: 3px;
+    flex-wrap: wrap;
 }
 
 .home-experience-description p {
@@ -886,6 +897,15 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .home-experience-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-experience-wrapper h1 {
+        text-align: center;
+    }
 }
 
 @media (max-width: 975px) {
@@ -997,5 +1017,11 @@ footer {
 @media (max-width: 680px) {
     .portfolio-block {
         display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-experience-wrapper h1, .home-skills-wrapper h1 {
+        font-size: 45px;
     }
 }
