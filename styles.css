@@ -138,8 +138,6 @@ header {
     height: 60px;
     padding: 0px 175px;
     backdrop-filter: blur(10px);
-    background-color: var(--bg-color-3);
-    box-shadow: 0px 0px 10px 5px var(--accent-color-5);
 }
 
 header a, .sidebar a {
@@ -222,7 +220,6 @@ main {
     justify-content: flex-start;
     align-items: center;
     width: 100vw;
-    height: 400vh;
     padding: 0px 175px;
     z-index: 3;
 }
@@ -356,7 +353,7 @@ main {
     border: var(--accent-color-1) 1px solid;    
     border-radius: 15px;
     transition: ease-in-out 0.1s;
-    box-shadow: 0px 0px 70px 20px var(--accent-color-5);
+    box-shadow: 0px 0px 40px 5px var(--accent-color-5);
 }
 
 .home-skills-row:hover {
@@ -468,7 +465,7 @@ main {
     border: var(--accent-color-1) 1px solid;
     border-radius: 15px;
     transition: ease-in-out 0.1s;
-    box-shadow: 0px 0px 70px 20px var(--accent-color-5);
+    box-shadow: 0px 0px 40px 5px var(--accent-color-5);
 }
 
 .home-experience-row:hover {
@@ -543,13 +540,13 @@ main {
     font-weight: bold;
     font-size: large;
     transition: ease-in-out 0.1s;
-    box-shadow: 0px 0px 30px 10px var(--accent-color-5);
+    box-shadow: 0px 0px 20px 10px var(--accent-color-5);
 }
 
 .more-experiences-button:hover {
     transition: ease-in-out 0.1s;
     background-color: var(--accent-color-6);
-    box-shadow: 0px 0px 20px 10px var(--accent-color-5);
+    box-shadow: 0px 0px 30px 10px var(--accent-color-5);
     transform: translateY(-2px) scale(1.02);
 }
 
@@ -606,7 +603,7 @@ main {
     background-color: var(--accent-color-8);
     border: var(--accent-color-1) 1px solid;
     border-radius: 15px;
-    box-shadow: 0px 0px 70px 20px var(--accent-color-5);
+    box-shadow: 0px 0px 40px 5px var(--accent-color-5);
     transition: ease-in-out 0.2s;
     overflow: hidden;
 }
@@ -625,7 +622,6 @@ main {
     width: 100%;
     height: 165px;
     overflow: hidden;
-    box-shadow: 0px 0px 5px 5px var(--bg-color-1);
 }
 
 .home-project-block-img img {
@@ -736,14 +732,14 @@ main {
     font-size: 15px;
     font-weight: bold;
     font-size: large;
-    box-shadow: 0px 0px 30px 10px var(--accent-color-5);
+    box-shadow: 0px 0px 20px 10px var(--accent-color-5);
     transition: ease-in-out 0.1s;
 }
 
 .more-projects-button:hover {
     transition: ease-in-out 0.1s;
     background-color: var(--accent-color-6);
-    box-shadow: 0px 0px 20px 10px var(--accent-color-5);
+    box-shadow: 0px 0px 30px 10px var(--accent-color-5);
     transform: translateY(-2px) scale(1.02);
 }
 
