@@ -960,17 +960,17 @@ footer {
     }
 
     #content-sector-1 {
-        min-height: 150vh;
+        min-height: 120vh;
         margin: 30px 5px;
     }
 
     #content-sector-2 {
-        min-height: 180vh;
+        min-height: 170vh;
         margin: 30px 5px;
     }
 
     #content-sector-3 {
-        min-height: 150vh;
+        min-height: 140vh;
         margin: 30px 5px;
     }
 
