@@ -740,7 +740,6 @@ footer {
     backdrop-filter: blur(10px);
     flex-shrink: 0;
     padding: 20px 175px;
-    background-color: var(--bg-color-1);
 }
 
 .footer-block {
