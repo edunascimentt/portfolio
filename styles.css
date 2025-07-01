@@ -973,6 +973,11 @@ footer {
         height: 115svh;
         margin: 100px 20px;
     }
+
+    .home-experience-wrapper, .home-skills-wrapper, .home-projects-wrapper {
+        height: 100%;
+        margin: 50px 0;
+    }
 }
 
 @media (max-width: 590px) {
@@ -1002,10 +1007,6 @@ footer {
 
     .home-experience-wrapper, .home-skills-wrapper {
         align-items: center;
-    }
-
-    .home-experience-wrapper, .home-skills-wrapper, .home-projects-wrapper {
-        height: 100%;
     }
 
     .home-experience-row {
