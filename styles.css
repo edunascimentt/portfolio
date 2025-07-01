@@ -95,8 +95,8 @@ b {
     background-color: var(--bg-color-1);
     box-shadow: var(--bg-color-1) 0px 0px 120px 120px;
     margin: 0px 20px;
-    padding: 10vh 175px;
-    height: 90vh;
+    padding: 10svh 175px;
+    height: 90svh;
 }
 
 #content-sector-2 {
@@ -105,8 +105,8 @@ b {
     user-select: none;
     -webkit-user-select: none;
     margin: 0px 20px;
-    padding: 10vh 175px;
-    height: 115vh;
+    padding: 10svh 175px;
+    height: 115svh;
 }
 
 #content-sector-3 {
@@ -117,8 +117,8 @@ b {
     background-color: var(--bg-color-1);
     box-shadow: var(--bg-color-1) 0px 0px 120px 120px;
     margin: 0px 20px;
-    padding: 10vh 175px;
-    height: 100vh;
+    padding: 10svh 175px;
+    height: 100svh;
 }
 
 /* Header */
