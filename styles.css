@@ -965,6 +965,11 @@ footer {
         min-height: 100vh;
         margin: 20px 5px;
     }
+
+    #content-sector-3,
+    .home-projects-bg {
+        overflow: visible;
+    }
 }
 
 @media (max-width: 590px) {
