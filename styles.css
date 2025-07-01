@@ -958,6 +958,10 @@ footer {
     .portfolio-block {
         display: none;
     }
+
+    #content-sector-1 {
+        margin: 20vh 20px;
+    }
 }
 
 @media (max-width: 590px) {
