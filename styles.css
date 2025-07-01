@@ -959,24 +959,11 @@ footer {
         display: none;
     }
 
-    #content-sector-1 {
-        height: 115svh;
-        margin: 100px 20px;
-    }
-
-    #content-sector-2 {
-        height: 115svh;
-        margin: 100px 20px;
-    }
-
+    #content-sector-1,
+    #content-sector-2,
     #content-sector-3 {
-        height: 115svh;
-        margin: 100px 20px;
-    }
-
-    .home-experience-wrapper, .home-skills-wrapper, .home-projects-wrapper {
-        height: 100%;
-        margin: 50px 0;
+        min-height: 100vh;
+        margin: 20px 5px;
     }
 }
 
