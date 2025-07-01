@@ -959,19 +959,19 @@ footer {
         display: none;
     }
 
-    #content-sector-1,
-    #content-sector-2,
-    #content-sector-3 {
-        min-height: 120vh;
+    #content-sector-1 {
+        min-height: 150vh;
+        margin: 30px 5px;
+    }
+
+    #content-sector-2 {
+        min-height: 180vh;
         margin: 30px 5px;
     }
 
     #content-sector-3 {
-        min-height: 150vh;
-    }
-
-    #content-sector-3 {
         padding: 10svh 20px;
+        margin: 30px 5px;
     }
 
     #content-sector-1,
