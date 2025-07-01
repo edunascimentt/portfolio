@@ -231,7 +231,7 @@ main {
     margin: 0px 20px;
     font-size: 30px;
     text-align: center;
-    animation: startup 0.5s ease-out.2s both;
+    animation: startup 0.5s ease-out 0.2s both;
     height: 100vh;
 }
 
@@ -268,9 +268,8 @@ main {
     border-radius: 10px;
     border: var(--accent-color-1) 1px solid;
     cursor: pointer;
-    font-size: 15px;
-    font-weight: bold;
     font-size: large;
+    font-weight: bold;
     transition: ease-in-out 0.1s;
     box-shadow: 0px 0px 30px 10px var(--accent-color-5);
 }
@@ -294,7 +293,7 @@ main {
     align-items: center;
     margin-top: 10px;
     transition: ease-in-out 0.1s;
-    animation: startup 0.5s ease-out.2s both;
+    animation: startup 0.5s ease-out 0.2s both;
 }
 
 .welcome-card-socials svg {
@@ -503,7 +502,7 @@ main {
 }
 
 .see-more-button {
-    background-color: var(--bg-color-8);
+    background-color: var(--accent-color-8);
     border: none;
     cursor: pointer;
     border-radius: 7px;
@@ -798,7 +797,7 @@ footer {
     stroke: var(--accent-color-1);
     fill: none;
     cursor: default;
-    animation: startup 0.5s ease-out.2s both, scroll-bounce 1.5s infinite;
+    animation: startup 0.5s ease-out 0.2s both, scroll-bounce 1.5s infinite;
 }
 
 /* Animation keyframes */
