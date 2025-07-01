@@ -958,6 +958,16 @@ footer {
     .portfolio-block {
         display: none;
     }
+
+    #content-sector-1 {
+    }
+
+    #content-sector-2 {
+    }
+
+    #content-sector-3 {
+        height: 115svh;
+    }
 }
 
 @media (max-width: 590px) {
