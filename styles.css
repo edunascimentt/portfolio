@@ -93,7 +93,7 @@ b {
     user-select: none;
     -webkit-user-select: none;
     background-color: var(--bg-color-1);
-    box-shadow: var(--bg-color-1) 0px 0px 120px 120px;
+    /* box-shadow: var(--bg-color-1) 0px 0px 120px 120px; */
     margin: 0px 20px;
     padding: 10svh 175px;
     height: 90svh;
@@ -115,7 +115,7 @@ b {
     user-select: none;
     -webkit-user-select: none;
     background-color: var(--bg-color-1);
-    box-shadow: var(--bg-color-1) 0px 0px 120px 120px;
+    /* box-shadow: var(--bg-color-1) 0px 0px 120px 120px; */
     margin: 0px 20px;
     padding: 10svh 175px;
     height: 100svh;
@@ -962,8 +962,12 @@ footer {
     #content-sector-1,
     #content-sector-2,
     #content-sector-3 {
-        min-height: 130vh;
+        min-height: 120vh;
         margin: 30px 5px;
+    }
+
+    #content-sector-1 {
+        padding: 10svh 20px;
     }
 
     #content-sector-1,
