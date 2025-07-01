@@ -962,8 +962,8 @@ footer {
     #content-sector-1,
     #content-sector-2,
     #content-sector-3 {
-        min-height: 100vh;
-        margin: 20px 5px;
+        min-height: 130vh;
+        margin: 30px 5px;
     }
 
     #content-sector-1,
