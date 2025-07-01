@@ -966,12 +966,12 @@ footer {
 
     #content-sector-2 {
         height: 115svh;
-        margin: 250px 20px;
+        margin: 100px 20px;
     }
 
     #content-sector-3 {
         height: 115svh;
-        margin: 300px 20px;
+        margin: 100px 20px;
     }
 }
 
@@ -1002,6 +1002,10 @@ footer {
 
     .home-experience-wrapper, .home-skills-wrapper {
         align-items: center;
+    }
+
+    .home-experience-wrapper, .home-skills-wrapper, .home-projects-wrapper {
+        height: 100%;
     }
 
     .home-experience-row {
