@@ -961,14 +961,17 @@ footer {
 
     #content-sector-1 {
         height: 115svh;
+        margin: 100px 20px;
     }
 
     #content-sector-2 {
         height: 115svh;
+        margin: 100px 20px;
     }
 
     #content-sector-3 {
         height: 115svh;
+        margin: 100px 20px;
     }
 }
 
