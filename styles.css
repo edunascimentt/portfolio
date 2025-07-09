@@ -797,7 +797,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 175px;
+    padding: 0px 20px;
     text-align: center;
     animation: startup 0.5s ease-out 0.2s both;
     height: 100vh;
@@ -949,7 +949,7 @@ footer {
 }
 
 @media (max-width: 1430px) {
-    header, #content-sector-1, #content-sector-2, #content-sector-3 {
+    header, footer,#content-sector-1, #content-sector-2, #content-sector-3 {
         padding: 0px 20px;
     }
 }
@@ -1004,7 +1004,7 @@ footer {
         font-size: 20px;
     }
 
-    header, main {
+    header, main,  {
         padding: 0px 10px;
     }
 
@@ -1035,7 +1035,7 @@ footer {
         gap: 20px;
         background-color: var(--bg-color-3);
         backdrop-filter: blur(10px);
-        box-shadow: -5px 0 5px var(--accent-color-5);
+        box-shadow: -5px 0 5px var(--bg-color-3);
         transition: 0.3s ease-in-out
     }
 
@@ -1066,6 +1066,11 @@ footer {
         transition: 1s ease-in-out;
         backdrop-filter: blur(2px);
         user-select: none;
+    }
+
+    .about-about {
+        align-items: flex-start;
+        text-align: start;
     }
 }
 
@@ -1133,7 +1138,7 @@ footer {
 }
 
 @media (max-width: 400px) {
-    .home-experience-wrapper h1, .home-skills-wrapper h1 {
+    .home-experience-wrapper h1, .home-skills-wrapper h1, .about-experiences-wrapper h1 {
         font-size: 45px;
     }
 }
