@@ -1004,7 +1004,7 @@ footer {
         font-size: 20px;
     }
 
-    header, main,  {
+    header, main {
         padding: 0px 10px;
     }
 
@@ -1101,6 +1101,8 @@ footer {
     .home-projects-bg {
         overflow: visible;
     }
+
+    
 }
 
 @media (max-width: 590px) {
