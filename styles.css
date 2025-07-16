@@ -996,6 +996,7 @@ footer {
     align-items: center;
     padding: 10px;
     gap: 10px;
+    width: 350px;
     background-color: var(--accent-color-8);
     border: var(--accent-color-1) 1px solid;
     border-radius: 15px;
@@ -1183,6 +1184,16 @@ footer {
     .about-about {
         align-items: flex-start;
         text-align: start;
+    }
+}
+
+@media (max-width: 760px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
 
