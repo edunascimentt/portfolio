@@ -825,6 +825,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 35px;
 }
 
 .about-experiences-wrapper h1 {
@@ -934,7 +935,7 @@ footer {
     font-size: 55px;
 }
 
-.skills-container {
+.skills-skills-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -943,7 +944,7 @@ footer {
     gap: 10px;
 }
 
-.skills-container h2 {
+.skills-skills-container h2 {
     font-size: 30px;
 }
 
@@ -981,6 +982,10 @@ footer {
     transition: transform ease-in-out 0.2s;
     transform: translateY(-1px) scale(1.01);
 }
+
+/* ////////// PROJECTS PAGE ////////// */
+
+
 
 /* Animation keyframes */
 
@@ -1200,7 +1205,7 @@ footer {
     }
 
     .home-experience-row {
-        max-width: 300px;
+         max-width: 300px;
     }
 }
 
