@@ -768,28 +768,6 @@ footer {
     cursor: default;
 }
 
-.more-projects-button {
-    background-color: transparent;
-    border: 0px;
-    margin-top: 20px;
-    padding: 13px 40px;
-    border-radius: 10px;
-    border: var(--accent-color-1) 1px solid;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: bold;
-    font-size: large;
-    box-shadow: 0px 0px 20px 10px var(--accent-color-5);
-    transition: ease-in-out 0.1s;
-}
-
-.more-projects-button:hover {
-    transition: ease-in-out 0.1s;
-    background-color: var(--accent-color-6);
-    box-shadow: 0px 0px 30px 10px var(--accent-color-5);
-    transform: translateY(-2px) scale(1.02);
-}
-
 /* ////////// ABOUT PAGE ////////// */
 
 .about-about {
@@ -982,10 +960,6 @@ footer {
     transition: transform ease-in-out 0.2s;
     transform: translateY(-1px) scale(1.01);
 }
-
-/* ////////// PROJECTS PAGE ////////// */
-
-
 
 /* Animation keyframes */
 
