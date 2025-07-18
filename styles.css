@@ -1,7 +1,5 @@
 /* General styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 :root {
     --bg-color-1: #05080f;
     --bg-color-2: #ffffff;
@@ -15,7 +13,7 @@
     --accent-color-4: #060a12;
     --accent-color-5: #225ee12c;
     --accent-color-6: #111434;
-    --accent-color-7: #151b63;
+    --accent-co or-7: #151b63;
     --accent-color-8: #0a1734;
     --accent-color-9: #3b3b3b5b;
 }
