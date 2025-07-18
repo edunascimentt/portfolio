@@ -788,7 +788,8 @@ footer {
 
 .about-about p {
     font-size: 22px;
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
 }
 
 .about-experiences-bg {
