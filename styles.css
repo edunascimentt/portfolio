@@ -983,6 +983,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
+    margin: 0px 20px 0px 20px;
 }
 
 .contact-container a {
@@ -996,7 +997,9 @@ footer {
     align-items: center;
     padding: 10px;
     gap: 10px;
-    width: 350px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 350px;
     background-color: var(--accent-color-8);
     border: var(--accent-color-1) 1px solid;
     border-radius: 15px;
@@ -1195,6 +1198,10 @@ footer {
         align-items: center;
         gap: 20px;
     }
+
+    .contact-block {
+        font-size: small;
+    }
 }
 
 @media (max-width: 680px) {
@@ -1263,7 +1270,7 @@ footer {
 }
 
 @media (max-width: 400px) {
-    .home-experience-wrapper h1, .home-skills-wrapper h1, .about-experiences-wrapper h1 {
+    .home-experience-wrapper h1, .home-skills-wrapper h1, .about-experiences-wrapper h1, .contact-sector h1 {
         font-size: 45px;
     }
 
