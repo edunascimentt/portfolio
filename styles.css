@@ -13,7 +13,7 @@
     --accent-color-4: #060a12;
     --accent-color-5: #225ee12c;
     --accent-color-6: #111434;
-    --accent-co or-7: #151b63;
+    --accent-color-7: #151b63;
     --accent-color-8: #0a1734;
     --accent-color-9: #3b3b3b5b;
 }
@@ -1233,8 +1233,6 @@ footer {
     .home-projects-bg {
         overflow: visible;
     }
-
-
 }
 
 @media (max-width: 590px) {
